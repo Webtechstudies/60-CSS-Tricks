@@ -1,0 +1,2134 @@
+
+
+
+<!-- 
+<div class="img-container">
+  <img src="images/city.jpg">
+</div>
+
+<style>
+.img-container {
+	width: 400px;
+	height: 250px;
+	position: relative;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.img-container::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(227, 36, 46, 0.5);
+}
+</style>
+-->
+
+
+<!--
+<div class="container">
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
+<style>
+.container div {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 30px;
+	background: #22D5FE;
+}
+
+.container:hover div{
+	transform:scale(1.2);
+}
+
+.container div:nth-child(1){
+	transition: 0.5s;
+}
+
+.container div:nth-child(2){
+	transition: 1s;
+}
+
+.container div:nth-child(3){
+	transition: 1.5s;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="container">
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
+<style>
+.container div {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 30px;
+	background: #22D5FE;
+}
+
+.container:hover div{
+	transform:scale(0.8);
+}
+
+.container div:nth-child(1) {
+	transition: 0.5s;
+}
+
+.container div:nth-child(2) {
+	transition: 1s;
+}
+
+.container div:nth-child(3) {
+	transition: 1.5s;
+}
+</style>
+-->
+
+
+<!--
+<div class="container">
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
+<style>
+.container div {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	background: #22D5FE;
+	animation: effect 2s ease infinite;
+}
+
+.container div:nth-child(1) {
+	animation-delay:0.3s;
+}
+
+.container div:nth-child(2) {
+	animation-delay:0.6s;
+}
+
+.container div:nth-child(3) {
+	animation-delay:0.9s;
+}
+
+@keyframes effect {
+	50% {
+		transform:scale(1.2);
+	}
+	100% {
+		transform:scale(1);
+	}
+}
+</style>
+-->
+
+
+<!--
+<div class="container">
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
+<style>
+.container div {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	background: #22D5FE;
+	animation: effect 2s ease infinite;
+}
+
+.container:hover div{
+	transform:scale(1.2);
+}
+
+.container div:nth-child(1) {
+	animation-delay:0.3s;
+}
+
+.container div:nth-child(2) {
+	animation-delay:0.6s;
+}
+
+.container div:nth-child(3) {
+	animation-delay:0.9s;
+}
+
+@keyframes effect {
+	50% {
+		transform:translateY(-20px);
+	}
+	100% {
+		transform:translateY(0px);
+	}
+}
+</style>
+-->
+
+
+<!--
+<div class="rectangle"></div>
+
+<style>
+.rectangle {
+	width: 50px;
+	height: 50px;
+	background: #22D5FE;
+	animation: effect 2s ease infinite;
+}
+
+@keyframes effect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0, 0.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+</style>
+-->
+
+
+<!--
+<div class="rectangle"></div>
+
+<style>
+.rectangle {
+	width: 50px;
+	height: 50px;
+	background: #04396B;
+	animation: effect 2s ease infinite;
+}
+
+@keyframes effect {
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+</style>
+-->
+
+
+
+<!-- 
+<div class="img-container"><img src="images/cat.jpg"></div>
+
+<style>
+.img-container{
+	width: 200px;
+	height:200px;
+}
+
+.img-container img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="container" >
+	<img src="images/city.jpg">
+</div>
+
+<style>
+.container{
+	width:300px;
+	height:300px;
+	overflow:hidden;
+	position: relative;
+}
+
+img{
+	width:100%;
+	height:300px;
+	object-fit:cover;
+	transition:0.5s;
+}
+
+.container::before{
+	content:"";
+	position: absolute;
+	top:0;
+	left:100%;
+	right:0;
+	bottom:0;
+	background:rgba(227, 36, 46, 0.74);
+	transition:0.5s;
+}
+
+.container:hover::before{
+	left:0;
+}	
+</style>
+-->
+
+
+<!-- 
+<div class="container">
+	<img src="images/tiger.jpg">
+</div>
+
+<style>
+.container{
+	width:500px;
+	height:350px;
+	overflow:hidden;
+	position: relative;
+}
+
+img{
+	width:100%;
+	height:400px;
+	object-fit:cover;
+	transition:0.5s;
+}
+
+.container:after{
+	content:"";
+	position: absolute;
+	top:100%;
+	right:0;
+	left:0;
+	bottom:0;
+	background:rgba(44, 130, 201, 0.5);
+	transition:0.5s;
+}
+
+.container:hover:after{
+	top:0;
+}	
+</style>
+-->
+
+
+<!--
+<div class="container" >
+	<img src="images/city.jpg">
+</div>
+
+<style>
+.container{
+	width:300px;
+	height:300px;
+	overflow:hidden;
+	position: relative;
+}
+
+img{
+	width:100%;
+	height:300px;
+	object-fit:cover;
+	transition:0.5s;
+}
+
+.container::before{
+	content:"";
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	background:rgba(227, 36, 46, 0.74);
+	transition:0.5s;
+	opacity: 0;
+}
+
+.container:hover::before{
+	opacity: 1;
+}	
+</style>
+-->
+
+
+<!-- 
+<div class="container" >
+	<img src="images/city.jpg">
+</div>
+
+<style>
+.container{
+	width:300px;
+	height:300px;
+	overflow:hidden;
+	position: relative;
+}
+
+img{
+	width:100%;
+	height:300px;
+	object-fit:cover;
+}
+
+.container:after{
+	content:"";
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	background:rgba(227, 36, 46, 0.74);
+	transition:0.5s;
+	border-radius: 50%;
+	transform: scale(0);
+}
+
+.container:hover:after{
+  	transform: scale(2);
+}	
+</style>
+-->
+
+
+<!--
+<div class="container" >
+	<img src="images/city.jpg">
+</div>
+
+<style>
+.container{
+	width:300px;
+	height:300px;
+	overflow:hidden;
+	position: relative;
+}
+
+img{
+	width:100%;
+	height:300px;
+	object-fit:cover;
+}
+
+.container:after{
+	content:"";
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	background:rgba(227, 36, 46, 0.74);
+	transition:0.5s;
+	transform: scaleX(0);
+}
+
+.container:hover:after{
+	transform: scaleX(1);
+}
+</style>
+-->
+
+
+<!--
+<div class="container" >
+	<img src="images/city.jpg">
+</div>
+
+<style>
+.container{
+	width:300px;
+	height:300px;
+	position: relative;
+}
+
+img{
+	width:100%;
+	height:300px;
+	object-fit:cover;
+}
+
+.container::before{
+	content:"";
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	background:rgba(227, 36, 46, 0.74);
+	transition:0.5s;
+	transform: scale(0);
+}
+
+.container:hover::before{
+	transform: scale(1);
+}	
+</style>
+-->
+
+
+<!-- 
+<div class="container">
+	<img src="images/tiger.jpg">
+</div>
+
+<style>
+.container{
+	width:500px;
+	height:350px;
+	overflow:hidden;
+	position: relative;
+}
+
+img{
+	width:100%;
+	height:400px;
+	object-fit:cover;
+	transition:0.5s;
+}
+
+.container img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.2) rotate(10deg);
+}	
+</style>
+-->
+
+
+<!-- 
+<div class="grid-container">
+	<div class="header">Header</div>
+	<div class="content">Content</div>
+	<div class="sidebar">Sidebar</div>
+	<div class="footer">Footer</div>
+</div>
+
+<style>
+.grid-container {
+	display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,200px);
+	grid-template-areas:
+		"header header header"
+		"content . sidebar"
+		"footer footer footer";
+}
+
+.grid-container div {
+	background-color: #9966C5;
+	border: 1px solid #000;
+	font-size: 25px;
+	padding: 15px;
+	text-align: center;
+}
+
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.header { grid-area: header; }
+.footer { grid-area: footer; }
+</style>
+-->
+
+
+<!-- 
+<style>
+.overlay{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.5);
+}
+</style>
+
+<div class="overlay"></div>
+-->
+
+
+
+<!-- 
+<style>
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #777;
+  width: 75%;
+  padding:25px;
+}
+
+.close-btn {
+  color: #777;
+  font-size: 30px;
+  font-weight: 800;
+  position:absolute;
+  top:15px;
+  right:15px;
+}
+</style>
+
+<div class="modal">
+	<span class="close-btn">&times;</span>
+	<p>Modal Content</p>
+</div>
+-->
+
+
+
+<!-- 
+<div class="flex-container">
+  <div>El1</div>
+  <div>El2</div>
+  <div>El3</div>
+  <div>El4</div>
+  <div>El5</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+	background-color: #1C9CE5;
+	height: 300px;
+}
+
+.flex-container div {
+	background-color: #FFFF66;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="flex-container">
+  <div>El1</div>
+  <div>El2</div>
+  <div>El3</div>
+  <div>El4</div>
+  <div>El5</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+	background-color: #1C9CE5;
+	height: 700px;
+}
+
+.flex-container div {
+	background-color: #FFFF66;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="flex-container">
+  <div>
+  	<div>1</div>
+  	<div>2</div>
+  </div>
+  <div>
+  	<div>3</div>
+  	<div>4</div>  	
+  </div>
+  <div>
+  	<div>5</div>
+  	<div>6</div>  	
+  </div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #1C9CE5;
+	height:500px;
+}
+
+.flex-container div {
+	background-color: #FFFF66;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+
+.flex-container > div { 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	width:300px;
+}
+
+.flex-container > div > div {  
+	background: #1C9CE5 !important;
+	margin: 13px;
+	padding: 20px;
+}
+</style>
+-->
+
+<!-- 
+<div class="flex-container">
+  <div>El 1</div>
+  <div>El 2</div>
+  <div>El 3</div>
+  <div>El 4</div>
+  <div>El 5</div>
+  <div>El 6</div>
+  <div>El 7</div>
+  <div>El 8</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: column-reverse;
+	align-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap-reverse;
+	background-color: #1C9CE5;
+	height:450px;
+}
+
+.flex-container div {
+	background-color: #FFFF66;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="flex-container">
+  <div>El 1</div>
+  <div>El 2</div>
+  <div>El 3</div>
+  <div>El 4</div>
+  <div>El 5</div>
+  <div>El 6</div>
+  <div>El 7</div>
+  <div>El 8</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #1C9CE5;
+	height:450px;
+}
+
+.flex-container div {
+	background-color: #FFFF66;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+</style>
+-->
+
+
+<!--
+<div class="flex-container">
+  <div>Centered element</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	background-color: #1C9CE5;
+	height:350px;
+}
+
+.flex-container div {
+	background-color: #FFFF66;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="flex-container">
+  <div>El1</div>
+  <div>El2</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	background-color: #1C9CE5;
+	height:350px;
+}
+
+.flex-container div {
+	background-color: #FFFF66;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+</style>
+-->
+
+
+
+<!-- 
+<div class="flex-container">
+  <div>El 1</div>
+  <div>El 2</div>
+  <div>El 3</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-between;
+	background-color: #1C9CE5;
+	height:450px;
+}
+
+.flex-container div {
+	background-color: #FFFF66;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+
+.flex-container div:nth-of-type(2) {align-self: center;}
+.flex-container div:nth-of-type(3) {align-self: flex-start;}
+</style>
+-->
+
+
+<!-- 
+<div class="flex-container">
+  <div>Elem 1</div>
+  <div>Elem 2</div>
+  <div>Elem 3</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+	justify-content: space-between;
+	background-color: #ff7417;
+	height:400px;
+}
+
+.flex-container div{
+	background-color: #eeedeb;
+	margin: 13px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.flex-container div:nth-of-type(2) {align-self: center;}
+.flex-container div:nth-of-type(3) {align-self: flex-start;}
+</style>
+-->
+
+
+<!-- 
+<div class="flex-container">
+  <div>Elem 1</div>
+  <div>Elem 2</div>
+  <div>Elem 3</div>
+  <div>Elem 4</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+	justify-content: space-between;
+	background-color: #ff7417;
+	height:400px;
+}
+
+.flex-container div{
+	background-color: #eeedeb;
+	margin: 13px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.flex-container div:nth-of-type(3) {align-self: flex-start;}
+.flex-container div:nth-of-type(4) {align-self: flex-start;}
+</style>
+-->
+
+
+
+<!-- 
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+    color: #fff;
+    background-color:#A45DE9;
+    border: none;
+    padding: .5rem .8rem;
+    border-radius: 2rem;
+}
+
+button:hover {
+  	animation: effect 1.5s ease-out 2;
+}
+
+@keyframes effect {
+	30% {
+		transform: scale(1.1);
+	}
+	80% {
+		transform: scale(0.9);
+	}
+}
+</style>
+-->
+
+
+<!-- 
+<style>
+body {
+  background-image: url(trellis.png), url(wine.png);
+  background-position: center center, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, auto;
+}
+</style>
+-->
+
+
+<!--
+<button class="effect">Click me!</button>
+
+<style>
+button {
+	cursor: pointer;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    padding: .5rem .8rem;
+    font-size: 1rem;
+}
+
+.effect:before {
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 5%;
+	width: 90%;
+	height: 10px;
+	opacity: 0;
+	background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 80%);
+	transition-duration: 0.3s;
+}
+
+.effect:hover{
+	transform: translateY(-7px);
+	transition-duration: 0.3s;
+}
+
+.effect:hover:before {
+	opacity: 1;
+	transform: translateY(7px);
+}
+</style>
+-->
+
+
+<!-- 
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+    color: #fff;
+    background-color:#A45DE9;
+    border: none;
+    padding: .5rem .8rem;
+    border-radius: 2rem;
+}
+
+button:hover {
+	transition-duration: 0.7s;
+	box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+</style>
+-->
+
+
+<!-- 
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #fff;
+	color: #A45DE9;
+    border: 3px solid #A45DE9;
+    padding: .5rem .8rem;
+    border-radius: 2rem;
+}
+
+button:hover {
+	animation: effect 1s ease infinite;
+}
+
+@keyframes effect {
+	0% {
+		transform: translateY(-8px);
+	}
+	50% {
+		transform: translateY(-6px);
+	}
+	100% {
+		transform: translateY(-8px);
+	}
+}
+</style>
+-->
+
+
+<!-- 
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #fff;
+	color: #A45DE9;
+    border: 3px solid #A45DE9;
+    padding: .5rem .8rem;
+    border-radius: 2rem;
+}
+
+button:hover {
+	transition: 0.5s ease;
+	transform: skew(-10deg);
+}
+</style>
+-->
+
+
+<!-- 
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #A45DE9;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+	transform: perspective(1px) translateZ(0);
+}
+
+button::after {
+	content: "";
+	background: #FF91AE;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transform: scaleX(0);
+	transform-origin: 50% 50%;
+	transition: 1.3s ease-out;
+}
+
+button:active::after {
+	transform: scaleX(1);
+}
+</style>
+-->
+
+
+<!-- 
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #FF91AE;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+	transform: perspective(1px) translateZ(0);
+	overflow: hidden;
+}
+
+button::after {
+	content: "";
+	background: #A45DE9;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50%;
+	transition:1.5s ease;
+	transform: scale(2);
+}
+
+button:active::after {
+	transform: scale(0);
+}
+</style>
+-->
+
+
+<!--
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #FF91AE;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+	transform: perspective(1px) translateZ(0);
+}
+
+button::after {
+	content: "";
+	background: #A45DE9;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition:0.5s ease;
+	transform: scaleX(1);
+	transform-origin: 50%;
+}
+
+button:active::after {
+	transform: scaleX(0);
+}
+</style>
+-->
+
+
+<!-- 
+<button>
+	Check it! <i class="fa fa-check"></i>
+</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #FF91AE;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+	transform: perspective(1px) translateZ(0);
+}
+
+button:hover i{
+	animation: effect 1s ease infinite;
+}
+
+@keyframes effect {
+  25% {
+    transform: scale(1.25);
+  }
+  75% {
+    transform: scale(0.8);
+  }
+}
+</style>
+-->
+
+
+<!-- 
+<button>
+	Download <i class="fa fa-arrow-circle-o-down"></i>
+</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #A45DE9;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+	transform: perspective(1px) translateZ(0);
+}
+
+button:hover i{
+	animation: effect 1s linear;
+}
+
+@keyframes effect {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	51%,
+	100% {
+		opacity: 1;
+	}
+}
+</style>
+-->
+
+
+<!-- 
+<button>
+	Loading process... <i class="fa fa-refresh"></i>
+</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #A45DE9;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+}
+
+button i{
+  	animation: effect 1s linear infinite;
+}
+
+@keyframes effect {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</style>
+-->
+
+
+<!-- 
+<button class="effect">Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #A45DE9;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+}
+
+button::before {
+	content: '';
+	position: absolute;
+	border: 5px solid #A45DE9;
+	top: -15px;
+	right: -15px;
+	bottom: -15px;
+	left: -15px;
+	opacity: 0;
+	animation-duration: 2s;
+}
+
+button:hover::before{
+	animation-name: effect;
+}
+
+@keyframes effect {
+	100% {
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		opacity: 1;
+	}
+}
+</style>
+-->
+
+
+<!-- 
+<button class="effect">Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #A45DE9;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+}
+
+button::before {
+	content: '';
+	position: absolute;
+	border: 5px solid #A45DE9;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	transition: 1s ease;
+}
+
+button:hover::before{
+	top: -10px;
+	right: -10px;
+	bottom: -10px;
+	left: -10px;
+	opacity: 1;
+}
+</style>
+-->
+
+
+<!--
+<button class="effect">Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #A45DE9;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+}
+
+button::before {
+	content: '';
+	position: absolute;
+	border: 3px solid #fff;
+	top: 3px;
+	left: 3px;
+	right: 3px;
+	bottom: 3px;
+	opacity: 0;
+	transition: 1s ease;
+}
+
+button:hover::before{
+	opacity: 1;
+}
+</style>
+-->
+
+
+<!-- 
+<button>
+	Call us! <i class="fa fa-phone"></i>
+</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #A45DE9;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+}
+
+button:hover i{
+	animation: effect 0.15s ease infinite;
+}
+
+@keyframes effect {
+  50% {
+    transform: translateX(3px) rotate(3deg);
+  }
+  100% {
+    transform: translateX(-3px) rotate(-3deg);
+  }
+}
+</style>
+-->
+
+
+<!--
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #A45DE9;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+    overflow: hidden;
+}
+
+button::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -3px;
+	height: 3px;
+	background: #FF91AE;
+	transition: 0.5s ease;
+}
+
+button:hover::after{
+	bottom: 0;
+}
+</style>
+-->
+
+
+<!-- 
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #A45DE9;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+    overflow: hidden;
+}
+
+button::after {
+	content: "";
+	position: absolute;
+	top: -4px;
+	left: -4px;
+	bottom: -4px;
+	right: -4px;
+	border: 3px solid #FF91AE;
+	transition: 0.5s ease;
+}
+
+button:hover::after{
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+</style>
+-->
+
+
+<!-- 
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #A45DE9;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+}
+
+button::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	top: 0;
+	background: #FF91AE;
+	height: 3px;
+	transition: 1.5s ease;
+}
+
+button:hover::after{
+	left: 0;
+	right: 0;
+}
+</style>
+-->
+
+
+<!-- 
+<span class="popup">Message!</span>
+
+<style>
+span.popup {
+	cursor: pointer;
+	background-color: #444;
+	color: #fff;
+    position: relative;
+    border: none;
+    padding: .5rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition-duration: 1s;
+}
+
+span.popup:before {
+	position: absolute;
+	content: '';
+	border-style: solid;
+	transition-duration: 0.3s;
+	bottom: 0;
+	left: calc(50% - 12px);
+	border-width: 12px 12px 0px 12px;
+ 	border-color: #444 transparent transparent transparent;
+ 	z-index:-1;
+}
+
+span.popup:hover:before {
+	 bottom:-10px;
+}
+</style>
+-->
+
+
+<!-- 
+<span class="popup">Message!</span>
+
+<style>
+span.popup {
+	cursor: pointer;
+	background-color: #444;
+	color: #fff;
+    position: relative;
+    border: none;
+    padding: .5rem 1.2rem;
+    font-size: 1rem;
+    transition-duration: 1s;
+    border-radius: 8px;
+}
+
+span.popup:before {
+	position: absolute;
+	content: '';
+	border-style: solid;
+	transition-duration: 0.3s;
+	top: calc(50% - 12px);
+	right: 0;
+	border-width: 12px 0 12px 12px;
+ 	border-color: transparent transparent transparent #444;
+}
+
+span.popup:hover:before {
+	 right:-10px;
+}
+</style>
+-->
+
+
+<!-- 
+<span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.</span>
+
+<style>
+span.text {
+	display:inline-block;
+	text-align: center;
+	background: #A45DE9;
+	color: #fff;
+    padding: .5rem 1.5rem;
+    width: 250px;
+    position: relative;
+}
+
+span.text::before {
+	background: white;
+	background: linear-gradient(315deg, white 45%, #FF91AE 80%);
+	z-index: 5;
+	position: absolute;
+	content: '';
+	height: 0;
+	width: 0;
+	bottom: 0;
+	right: 0;
+	box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+span.text:hover::before {
+	width: 25px;
+	height: 25px;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="container">
+	<div class="green">Ticket green</div>			
+	<div class="blue">Ticket blue</div>			
+	<div class="orange">Ticket orange</div>			
+</div>
+
+<style>
+.container{
+	position: relative;
+	width:300px;
+	height:300px;
+}
+
+.container div{
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	bottom:0;
+	right:0;
+	transform-origin: bottom right;
+	transition:0.4s;
+	text-align: center;
+	color: #fff;
+}
+
+.blue {
+	background: #025B95;
+}
+
+.green {
+	background: #05AC72;
+}
+
+.orange {
+	background: #F05E23;
+}
+
+.container:hover .green{
+	transform: rotate(20deg);
+	z-index:3;
+}
+
+.container:hover .blue{
+	transform: rotate(50deg);
+	z-index:5;
+}
+</style>
+-->
+
+
+<!-- 
+<div class="container">
+	<div class="inner-container">
+		<a href="#">The film begins</a>
+	</div>
+</div>
+
+
+<style>
+.container{
+	width:300px;
+	height:120px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	border:2px solid #025B95;
+}
+
+.inner-container{
+	position:absolute;
+	left:150px;
+	right:150px;
+	height:120px;
+	background: #025B95;
+	transition: 0.4s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.inner-container a{
+	opacity: 0;	
+	text-decoration: none;
+	color: #fff;
+	font-size:22px;
+	transition-delay: 0.4s;
+	transition-duration: 0.5s;
+}
+
+.container:hover .inner-container{
+	left:0;
+	right:0;
+}
+
+.container:hover a{
+	opacity: 1;
+}
+</style>
+-->
+
+
+<!--
+<div class="ripple">
+	<div></div>
+	<div></div>
+</div>
+
+<style>
+.ripple {
+	width: 200px;
+	height: 200px;
+}
+
+.ripple div {
+	border: 5px solid #fff;
+	position: absolute;
+	border-radius: 50%;
+	animation: ripple 1s cubic-bezier(0, 0.3, 0.7, 1) infinite;
+}
+
+.ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+
+@keyframes ripple {
+  0% {
+    top: 50px;
+    left: 50px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
+}
+</style>
+-->
+
+
+<!-- 
+<div class="spinner"></div>
+
+<style>
+.spinner {
+	width: 100px;
+	height: 100px;
+	border: 10px solid #A45DE9;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+	border-radius: 50%;
+	animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+</style>
+-->
+
+
+<!-- 
+<div class="loader">
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
+<style>
+.loader {
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+.loader div {
+	position: absolute;
+	left: 8px;
+	width: 20px;
+	background: #A45DE9;
+	animation: loader 1.2s cubic-bezier(0, 0.45, 0.45, 1) infinite;
+}
+
+.loader div:nth-child(1) {
+	animation-delay: -0.3s;
+	left: 20px;
+}
+
+.loader div:nth-child(2) {
+	animation-delay: -0.15s;
+	left: 50px;
+}
+
+.loader div:nth-child(3) {
+	animation-delay: 0;
+	left: 80px;
+}
+
+@keyframes loader {
+	0% {
+		top: 10px;
+		height: 80px;
+	}
+	50%, 100% {
+		top: 30px;
+		height: 35px;
+	}
+}
+</style>
+-->
+
+
+<!-- 
+<div class="container" >
+	<img src="images/city.jpg">
+</div>
+
+<style>
+.container{
+	width:200px;
+	height:200px;	
+	position: relative;
+	overflow:hidden;
+}
+
+img{
+	width:200px;
+	height:200px;
+	object-fit:cover;
+}
+
+.container::before{
+	content: "";
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top:160px;
+	left:160px;
+	transform:rotate(45deg);
+	transition:2s;
+	background:rgba(0, 126, 229, 0.74);
+}
+
+.container:hover::before{
+	transform:translate(-210px, -210px) rotate(45deg);
+}
+</style>
+-->
+
+
+<!-- 
+<div class="container" >
+	<img src="images/city.jpg">
+</div>
+
+<style>
+.container{
+	width:200px;
+	height:200px;	
+	position: relative;
+	overflow:hidden;
+}
+
+img{
+	width:200px;
+	height:200px;
+	object-fit:cover;
+}
+
+.container::before{
+	content: "";
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	top:-300px;
+	left:-300px;
+	transform:rotate(45deg);
+	transition:2s;
+	background:rgba(0, 126, 229, 0.74)
+}
+
+.container:hover::before{
+	transform:translate(220px, 220px) rotate(45deg);
+}
+</style>
+-->
+
+<!-- 
+<button class="effect">
+	<em>Information</em>
+	<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam,
+	quis nostrud exercitation. </span>
+</button>
+
+<style>
+button {
+	cursor: pointer;
+    color: #fff;
+    background-color: purple;
+	text-align: center;
+	z-index:5;
+    border: none;
+    padding: .5rem .8rem;
+    font-size: 1rem;
+}
+
+.effect span{
+	display: none;
+}
+
+.effect:focus span{
+	display: block;
+	width:200px;
+    padding: .5rem .8rem;
+    transition-duration: 1s;
+	transform:translate(-50%,-50%);
+	background-color: #31BA31;
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+
+.effect::before{
+	content:"";
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+.effect:focus::before{
+	background: rgba(0,0,0,0.5);
+}
+</style>
+-->
+
+
+<!-- 
+<div class="container">
+	<div class="img-container">
+		<img src="images/city.jpg">
+	</div>
+	<div class="img-container">
+		<img src="images/city2.jpg">
+	</div>
+	<div class="img-container">
+		<img src="images/city3.jpg">
+	</div>
+	<div class="img-container">
+		<img src="images/city4.jpg">
+	</div>
+</div>
+
+<style>
+.container {
+	display:grid;
+	grid-template-columns: 50% 50%;
+	grid-auto-rows:400px;
+	grid-gap:50px;
+	padding:100px;
+}
+
+img{
+	width:100%;
+	object-fit:cover;
+	height:400px;
+}
+
+.img-container{
+	box-shadow: -5px 5px 25px 1px rgba(0,0,0, 0.4);
+	transition:0.5s;
+}
+
+.container:hover .img-container{
+	transform: translateY(10vh) skew(60deg, -25deg) rotateX(45deg);
+}
+</style>
+-->
+
+
+
+<!-- 
+<div class="card">
+  <div class="card-content">
+    <div class="card-front">
+      <img src="images/city.jpg">
+    </div>
+    <div class="card-back">
+      <h1>Atlanta</h1> 
+    </div>
+  </div>
+</div>
+
+<style>
+.card {
+	display: inline-block;
+	margin:30px;
+	width: 300px;
+	height: 300px;
+}
+
+.card-content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: 0.8s;
+	transform-style: preserve-3d;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+}
+
+img{
+	width:300px;
+	height:300px;
+}
+
+.card:hover .card-content {
+	transform: rotateX(180deg);
+}
+
+.card-front, .card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.card-back {
+	background-color: #025B95;
+	color: white;
+	transform: rotateX(180deg);
+}
+</style>
+-->
+
+
+<!-- 
+<style>
+dl {
+	padding: 12px;
+}
+
+dl dt {
+	border: 1px solid #000;
+}
+
+dl dt a {
+	color: #000;
+	font-weight: 900;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+
+dl dd {
+	color: #000;
+	overflow: hidden;
+	transition: 1s ease;
+}
+
+dl dd p {
+	padding: 10px;
+}
+
+dl dd:not(:target) { 
+	height: 0; 
+}
+
+dl dd:target { 
+	height: 70px; 
+}
+
+dl a.ie:hover dd, dl a.ie:focus dd {
+	height: auto;
+	color: #cccccc !important;
+}
+</style>
+
+<dl>
+	<dt><a href="#item1">Item 1</a></dt>
+	<dd id="item1">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. 
+		</p>
+	</dd>
+	<dt><a href="#item2">Item 2</a></dt>
+	<dd id="item2">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. 
+		</p>
+	</dd>
+</dl>
+-->
+
